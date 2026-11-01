@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "A rececho",
+    "category": "Cortometraje",
+    "year": "2025",
+    "mainImage": "/src/assets/arececho1.jpg",
+    "images": [
+      "/src/assets/arececho1.jpg",
+      "/src/assets/arececho2.jpg",
+      "/src/assets/arececho5.jpg",
+      "/src/assets/arececho8.png"
+    ],
+    "prizes": ["/src/assets/seviffpremio.png", "/src/assets/upvpremio.png"],
+    "video": "https://www.youtube.com/embed/sr7ixpNV2Bg?si=yjOD1WAcQn8X-_bC"
+  },
+  {
+    "id": 2,
+    "name": "Infama",
+    "category": "Cortometraje",
+    "year": "2024",
+    "mainImage": "/src/assets/infama5.jpg",
+    "images": [
+      "/src/assets/infama1.jpg",
+      "/src/assets/infama3.jpg",
+      "/src/assets/infama4.jpg",
+      "/src/assets/infama5.jpg"
+    ],
+    "prizes": ["/src/assets/notodofilmpremio.png"],
+    "video": "https://www.youtube.com/embed/HvVmRwaT3Us?si=itpUqrjJapxbHnu6"
+  },
+  {
+    "id": 3,
+    "name": "Tú primero",
+    "category": "Cortometraje",
+    "year": "2025",
+    "mainImage": "/src/assets/tuprimero2.jpg",
+    "images": [
+      "/src/assets/tuprimero1.jpg",
+      "/src/assets/tuprimero2.jpg",
+      "/src/assets/tuprimero3.jpg",
+      "/src/assets/tuprimero4.jpg"
+    ],
+    "video": "https://www.youtube.com/embed/PPFK34qDz6I?si=F9_2S2pXI_90e5dd"
+  },
+  {
+    "id": 4,
+    "name": "Noche abismal",
+    "category": "Videoclip",
+    "year": "2026",
+    "mainImage": "/src/assets/nocheabismal4.jpg",
+    "images": [
+      "/src/assets/nocheabismal1.jpg",
+      "/src/assets/nocheabismal2.jpg",
+      "/src/assets/nocheabismal3.jpg",
+      "/src/assets/nocheabismal4.jpg"
+    ],
+    "video": "https://www.youtube.com/embed/L_secAidxks?si=lvjVGnEngGIC3gTE"
+  },
+  {
+    "id": 5,
+    "name": "Reflejos de un sueño olvidado",
+    "category": "Cortometraje",
+    "description": "En preproducción",
+    "mainImage": "/src/assets/reflejos1.jpeg",
+    "images": ["/src/assets/reflejos1.jpeg"]
+  }
+]
