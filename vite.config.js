@@ -33,4 +33,26 @@ export default defineConfig({
       '@/i18n': '/src/i18n',
     },
   },
+  build: {
+    minify: 'esbuild',
+    treeshake: true,
+    outDir: 'dist',
+    sourcemap: true,
+    emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (
+            id.includes('node_modules/react/') ||
+            id.includes('node_modules/react-dom/')
+          ) {
+            return 'react';
+          }
+        },
+        entryFileNames: '[name].js',
+        chunkFileNames: '[name].js',
+        assetFileNames: '[name].[ext]',
+      },
+    },
+  },
 });
