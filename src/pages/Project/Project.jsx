@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Stack } from '@mui/material';
+import { Box, Container, Stack, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 
 function Project({ project }) {
@@ -89,6 +89,100 @@ function Project({ project }) {
           </Box>
         </Stack>
       )}
+      <Stack flow="column" spacing={2} sx={{ marginTop: 2, width: '100%' }}>
+        {project?.credits?.directed && (
+          <>
+            <p
+              style={{
+                fontSize: '20px',
+                fontWeight: '200',
+                margin: 0,
+              }}
+            >
+              DIRECCIÓN Y GUIÓN
+            </p>
+            <p
+              style={{
+                fontSize: '20px',
+                margin: '0 0 16px 0',
+                lineHeight: '1',
+                fontWeight: '600',
+              }}
+            >
+              {project?.credits?.directed}
+            </p>
+          </>
+        )}
+        {project?.credits?.plot && (
+          <>
+            <p
+              style={{
+                fontSize: '20px',
+                fontWeight: '200',
+                margin: 0,
+              }}
+            >
+              SINOPSIS
+            </p>
+            <p
+              style={{
+                fontSize: '20px',
+                margin: '0 0 16px 0',
+                lineHeight: '1',
+                fontWeight: '600',
+              }}
+            >
+              {project?.credits?.plot}
+            </p>
+          </>
+        )}
+        {project?.credits?.genre && (
+          <>
+            <p
+              style={{
+                fontSize: '20px',
+                fontWeight: '200',
+                margin: 0,
+              }}
+            >
+              GÉNERO
+            </p>
+            <p
+              style={{
+                fontSize: '20px',
+                margin: '0 0 16px 0',
+                lineHeight: '1',
+                fontWeight: '600',
+              }}
+            >
+              {project?.credits?.genre}
+            </p>
+          </>
+        )}
+        {project?.credits?.runtime && (
+          <>
+            <p
+              style={{
+                fontSize: '20px',
+                fontWeight: '200',
+                margin: 0,
+              }}
+            >
+              DURACIÓN
+            </p>
+            <p
+              style={{
+                fontSize: '20px',
+                margin: '0 0 16px 0',
+                lineHeight: '1',
+                fontWeight: '600',
+              }}
+            >
+              {project?.credits?.runtime}
+            </p>
+          </>
+        )}
+      </Stack>
     </Container>
   );
 }

@@ -12,7 +12,13 @@
       "/src/assets/arececho8.png"
     ],
     "prizes": ["/src/assets/seviffpremio.png", "/src/assets/upvpremio.png"],
-    "video": "https://www.youtube.com/embed/sr7ixpNV2Bg?si=yjOD1WAcQn8X-_bC"
+    "video": "https://www.youtube.com/embed/sr7ixpNV2Bg?si=yjOD1WAcQn8X-_bC",
+    "credits": {
+      "directed": "J.M. Ramírez Herrera",
+      "plot": "Un cazador dispara a otro sin previo aviso y un tercero es testigo del suceso. La noche anterior, estos tres mismos hombres, disfrutan de unas cervezas juntos en su bar de confianza.",
+      "genre": "Thriller rural. Drama",
+      "runtime": "13 minutos"
+    }
   },
   {
     "id": 2,
@@ -27,7 +33,13 @@
       "/src/assets/infama5.jpg"
     ],
     "prizes": ["/src/assets/notodofilmpremio.png"],
-    "video": "https://www.youtube.com/embed/HvVmRwaT3Us?si=itpUqrjJapxbHnu6"
+    "video": "https://www.youtube.com/embed/HvVmRwaT3Us?si=itpUqrjJapxbHnu6",
+    "credits": {
+      "directed": "J.M. Ramírez Herrera",
+      "plot": "Una modelo asiste a su primera sesión con un fotógrafo de renombre. Descubrirá que los inicios no son fáciles.",
+      "genre": "Thriller psicológico",
+      "runtime": "3 minutos"
+    }
   },
   {
     "id": 3,
@@ -41,7 +53,13 @@
       "/src/assets/tuprimero3.jpg",
       "/src/assets/tuprimero4.jpg"
     ],
-    "video": "https://www.youtube.com/embed/PPFK34qDz6I?si=F9_2S2pXI_90e5dd"
+    "video": "https://www.youtube.com/embed/PPFK34qDz6I?si=F9_2S2pXI_90e5dd",
+    "credits": {
+      "directed": "J.M. Ramírez Herrera",
+      "plot": "Vero y Miguel son dos hermanos de mediana edad que van camino de la comida semanal en casa de sus padres. Ambos discuten si es el momento de anunciar sus recientes divorcios.",
+      "genre": "Comedia",
+      "runtime": "7 minutos"
+    }
   },
   {
     "id": 4,
@@ -55,7 +73,12 @@
       "/src/assets/nocheabismal3.jpg",
       "/src/assets/nocheabismal4.jpg"
     ],
-    "video": "https://www.youtube.com/embed/L_secAidxks?si=lvjVGnEngGIC3gTE"
+    "video": "https://www.youtube.com/embed/L_secAidxks?si=lvjVGnEngGIC3gTE",
+    "credits": {
+      "directed": "J.M. Ramírez Herrera",
+      "genre": "Video musical",
+      "runtime": "3 minutos"
+    }
   },
   {
     "id": 5,
@@ -63,6 +86,12 @@
     "category": "Cortometraje",
     "description": "En preproducción",
     "mainImage": "/src/assets/reflejos1.jpeg",
-    "images": ["/src/assets/reflejos1.jpeg"]
+    "images": ["/src/assets/reflejos1.jpeg"],
+    "credits": {
+      "directed": "J.M. Ramírez Herrera",
+      "plot": "Teo es un terapeuta que ha creado un aparato capaz de fotografiar los sueños. Mientras su invento ayuda a sus pacientes a superar sus traumas, él trata de lidiar con los suyos.",
+      "genre": "Drama. Ciencia ficción",
+      "runtime": "15 minutos"
+    }
   }
 ]
